@@ -1,0 +1,561 @@
+/*обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*подключение шрифтов*/
+
+@font-face {
+  font-family: 'AkzidenzGroteskBQ-BdCnd';
+  src: url('../fonts/AkzidenzGrotesk-BoldCond.eot');
+  src: local('☺'), url('../fonts/AkzidenzGrotesk-BoldCond.woff') format('woff'), url('../fonts/AkzidenzGrotesk-BoldCond.ttf') format('truetype'), url('../fonts/AkzidenzGrotesk-BoldCond.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTS55F.eot');
+  src: local('☺'), url('../fonts/PTS55F.woff') format('woff'), url('../fonts/PTS55F.ttf') format('truetype'), url('../fonts/PTS55F.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*body*/
+
+body{
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd",sans-serif;
+  font-size: 15px;
+  color: #000000;
+}
+
+/*container*/
+
+.container{
+  width: 100%;
+  max-width: 882px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header{
+  display: flex;
+  justify-content:space-between;
+  margin: 30px 0;
+}
+
+/*header__languages*/
+
+.header__languages{
+  display:flex;
+  margin-bottom: 38px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+
+
+}
+
+.header__link,.header__link-tel{
+ color: #000000;
+}
+
+.header__link:hover,.header__link-tel:hover{
+  color: white; 
+  background: black;
+}
+
+
+.header__menu{
+  display:flex;
+  text-transform: uppercase;
+  font-family: font-family: "Akzidenz Grotesk BQ - Bd Cnd",sans-serif;
+  letter-spacing: 1.5px;
+  
+
+}
+
+.header__en{
+  margin-right: 24px;
+
+}
+
+.header__about,.header__menus{
+  margin-right: 30px;
+}
+
+.header__logo{
+
+width: 212px;
+height: 108px;
+}
+
+
+.header__oder{
+  text-align: right;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  
+}
+
+.header__link-tel{
+  border-bottom: 1px solid #000;
+}
+
+.header__contact,.header__friends{
+  margin-left:30px;
+}
+
+
+/*food*/
+
+
+.food{
+  max-width: 100%;
+  display: flex;
+}
+
+.food__icon-right{
+ background-color: #000000;
+ width: 100%;
+}
+
+.food__title{
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 50px;
+  margin-bottom: 30px;
+  line-height: 50px;
+
+
+}
+
+.food__about{
+  margin-top: 65px;
+  margin-left: 55px;
+}
+
+.food__text{
+  color: #ffffff;
+  font-family: "PT Sans",sans-serif;
+  text-align: left;
+  max-width: 303px;
+  line-height: 25px;
+}
+
+.food__oder{
+  display: flex;
+}
+
+.food__btn{
+  margin-top: 35px;
+}
+
+.food__btntext{
+  color: #000000;
+}
+
+.food__btntext:hover{
+  text-shadow:2px 2px 2px #000000;
+}
+
+.food__button{
+  color: #000000;
+  font-family: Bebas,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 18px 30px;
+}
+
+.food__link{
+  margin-top: 50px;
+  margin-left: 15px;
+  
+}
+
+.food__menus{
+  color: #fffffe;
+  font-family: Bebas,sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/*menu*/
+
+.menu{
+  display: flex;
+  margin-top: 74px;
+}
+
+
+
+.menu__title{
+  margin-top: 25px;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.menu__text{
+  width: 175px;
+  margin-top: 33px ;
+  font-family: "PT Sans",sans-serif;
+  line-height: 25px;
+  text-align: left;
+}
+
+.menu__btn{
+  margin-top: 35px;
+  width: 155px;
+  height: 50px;
+  background-color: #000000;
+}
+
+.menu__btn:hover{
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.menu__btnlink{
+  color: #ffffff;
+  font-family: Bebas;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.menu__link{
+  font-family: Bebas,sans-serif;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 27px;
+}
+
+.menu__href{
+  color: #000000;
+}
+
+.menu__href:hover{
+  background: #000000;
+  color:white;
+}
+
+.menu__link:hover{
+  text-decoration: none;
+}
+
+/*choose*/
+
+.choose{
+  display: flex;
+  margin-top: 77px;
+  margin-bottom: 45px;
+  width: 100%;
+
+}
+
+.choose__item{
+  width: 49%;
+}
+
+.choose__text{
+  color: #ffffff;;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: -15%;
+  text-align:center;
+
+}
+
+/*interpretation*/
+
+.grey{
+  background-color: #ebebeb;
+
+}
+
+.interpretation{
+  margin-bottom: 83px;
+  display: flex;
+  
+}
+
+.interpretation__item{
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.interpretation__img{
+width: 100px;
+height: 100px;
+background-color: #030303;
+padding: 17px;
+}
+
+.interpretation__inf0{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.interpretation__title{
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.interpretation__text{
+  font-family: "PT Sans",sans-serif;
+  line-height: 25px;
+  text-align: left;
+}
+
+
+/*footer
+*/
+
+.footer__title{
+  font-size: 50px;
+  line-height: 25px;
+  text-align: left;
+  letter-spacing: 5px;
+  margin-bottom: 33px;
+}
+
+.footer__contact{
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.footer__adress{
+  display:flex;
+}
+
+.footer__text{
+  font-family: "PT Sans",sans-serif;
+  text-align: left;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.footer__email{
+  display: flex;
+}
+
+.footer__email-text{
+  margin-left: 10px;
+  font-family: "PT Sans",sans-serif;
+}
+
+.footer__contactright{
+  margin-left: 22%;
+}
+
+.footer__tel{
+  display: flex;
+  margin-top: 22px;
+}
+
+.footer__tel-number{
+  margin-top: 6px;
+  margin-left: 5px;
+  font-family: "PT Sans",sans-serif;
+}
+
+.footer__socialnetworks{
+  display: flex;
+  margin-top: 30px;
+}
+
+.footer__social-icon{
+  margin-right: 30px;
+}
+
+.footer__item{
+  display: flex;
+}
+
+.footer__maps{
+  width: 50%;
+  
+}
+
+.footer__form{
+  background-color: #000000;
+  width: 100%;
+
+}
+
+.footer__form-all{
+  margin-top: 35px;
+  margin-left: 60px;
+
+
+}
+
+.footer__form-name{
+  color: #ffffff;
+  font-size: 25px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 28px;
+}
+
+.footer_paragraph-area{
+  border: 2px solid #959595;
+  background-color: #252525;
+  width: 60%;
+  height: 95px;;
+  margin-bottom: 28px;
+}
+
+
+.footer_paragraph{
+  border: 2px solid #959595;
+  background-color: #252525;
+  width: 60%;
+  height: 48px;;
+  margin-bottom: 28px;
+}
+
+.footer__input,.footer__textarea{
+  color: #959595;
+  font-family: "PT Sans";
+  text-align: left;
+  background-color: #252525;
+  margin-top:14px;
+  margin-left:15px;
+}
+
+.footer__textarea{
+  resize:none;
+
+  
+}
+
+.footer__btn{
+  width: 155px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Bebas,sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  padding-top:3px;
+  text-align:center;
+  }
+
+  .footer__btn:hover{
+    text-shadow: 3px 3px 3px #000000;
+  }
+
+  .footer__bottom{
+    display: flex;
+    margin-top:59px;
+    padding-bottom: 53px;
+    justify-content:space-between;
+  }
+
+  
+
+  .footer_underline{
+    text-decoration:underline;
+  }
+
+
