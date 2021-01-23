@@ -309,7 +309,7 @@ height: 100%;
 }
 
 .menu__item{
-  width: 23%;
+  width: 25%;
 }
 
 .menu__card{
@@ -421,6 +421,7 @@ height: 100%;
 
 .interpretation__item{
   display: flex;
+  margin-bottom: 7%;
 }
 
 .interpretation__img{
