@@ -225,7 +225,7 @@ height: 100%;
 
 .food__foto{
   width: 100%;
-  height: max-content;
+  height: 105%;
 }
 
 
@@ -458,6 +458,7 @@ padding: 17px;
   text-align: left;
   letter-spacing: 5px;
   margin-bottom: 33px;
+  padding-top: 5%;
 }
 
 .footer__contact{
@@ -500,6 +501,10 @@ padding: 17px;
   font-family: "PT Sans",sans-serif;
 }
 
+.footer_paragraph-btn{
+  padding-bottom: 1%;
+}
+
 .footer__socialnetworks{
   display: flex;
   margin-top: 30px;
@@ -520,7 +525,7 @@ padding: 17px;
 
 .footer__map-image{
   width: 100%;
-  height: 100%;
+  height: 105%;
 }
 
 
