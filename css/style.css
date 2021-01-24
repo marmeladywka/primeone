@@ -999,8 +999,7 @@ padding: 17px;
   }
 
 .header__logo {
-  width: 300%;
-  height:80% ;
+  width: 100%;
   position: relative;
   right: 330%;
 }
