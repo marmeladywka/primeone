@@ -1048,8 +1048,7 @@ padding: 17px;
 /*food*/
   
   .food__foto {
-    width: 100%;
-    height: 100%;
+    background-size: cover;
 }
 
 .food{
