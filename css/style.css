@@ -1270,6 +1270,10 @@ padding: 17px;
    width: 150%;
 }
   
+.footer__input, .footer__textarea {
+   font-size: 8px;
+}
+  
  
 
 
