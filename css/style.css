@@ -746,6 +746,10 @@ padding: 17px;
 .interpretation {
   margin-bottom: 23px;
   }
+  
+ .interpretation__item {
+   height: 40%;
+}
 
 /*footer*/
 
@@ -893,6 +897,7 @@ padding: 17px;
 .interpretation__item {
   height: 50%;
   padding-left: 20px;
+  padding-bottom: 10%;
 }
 
 
@@ -922,7 +927,7 @@ padding: 17px;
 }
 
 .footer__btn {
-  width: 90%;
+  width: 70%;
   height: 25px;
 }
 
@@ -1215,8 +1220,9 @@ padding: 17px;
 }
 
 .footer__btn {
-  width: 90%;
+  width: 50%;
   height: 20px;
+  font-size: 8px;
 }
 
 
@@ -1250,6 +1256,18 @@ padding: 17px;
   
   .footer__tel-number {
     font-size: 10px;
+}
+  
+ .footer__contactright {
+    padding-right: 14%;
+}
+  
+ .footer__social-icon {
+    margin-right: 15%;
+}
+  
+.footer__social-img {
+   width: 150%;
 }
   
  
