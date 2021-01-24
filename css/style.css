@@ -203,6 +203,8 @@ height: 100%;
 
 .header__link-tel{
   border-bottom: 1px solid #000;
+  font-size: 10px;
+  line-height: 1.5;
 }
 
 .header__contact,.header__friends{
@@ -576,6 +578,7 @@ padding: 17px;
   background-color: #252525;
   margin-top:14px;
   margin-left:15px;
+  width: 90%;
 }
 
 .footer__textarea{
