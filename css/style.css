@@ -119,6 +119,7 @@ body{
   width: 100%;
   max-width: 882px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /*header*/
@@ -1042,6 +1043,7 @@ font-size: 25px;
 
 .menu {
   margin-top: 24px;
+  width: 100%;
 }
 
 .menu__item {
@@ -1061,7 +1063,7 @@ font-size: 25px;
 .menu__btn {
   margin-top: 15px;
   height: 20px;
-  width: 90%;
+  width: 100%;
   font-size: 10px;
     }
 
@@ -1097,11 +1099,11 @@ font-size: 25px;
 .interpretation__title{
   margin-top: 10px;
   text-align: center;
-  height: 30px;
+  height: 5%;
 }
 
 .interpretation__inf0{
-  height: auto;
+  height: 400%;
 }
 
 .interpretation__img,
@@ -1128,12 +1130,12 @@ font-size: 25px;
 }
 
 .footer__contactright {
-    margin-left: 10%;
+    margin-left: 4%;
 }
 
 .footer__socialnetworks {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10%;
 }
 
 .footer__tel {
