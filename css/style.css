@@ -846,15 +846,15 @@ padding: 17px;
 .menu__text {
   margin-top: 14px;
   width: 90%;
-  height: 30%;
-  text-align: center;
+  height: 35%;
 }
 
 .menu__title {
   margin-top: 15px;
   font-size: 20px;
   text-transform: none;
-  text-align: center;
+  width: 23%;
+  height: 10%;
 }
 
 .menu__btn {
@@ -863,14 +863,20 @@ padding: 17px;
 }
 
 .menu__link {
-  padding-bottom: 20px;
+  padding-bottom: 30%;
 }
 
 /*choose*/
 
 .choose {
-  margin-top: 27px;
+  margin-top: 10%;
     }
+  
+ .choose__text {
+   font-size: 120%;
+}
+ 
+ 
 
 /*interpretation*/
 
@@ -885,7 +891,7 @@ padding: 17px;
 }
 
 .interpretation__item {
-  height: 40%;
+  height: 50%;
   padding-left: 20px;
 }
 
@@ -1011,7 +1017,7 @@ padding: 17px;
   background-color: black;
   opacity: 0.6;
   color: white;
-  margin-bottom: -70%;
+  margin-bottom: -100%;
   z-index: 1;
   width: 67%;
   
@@ -1037,16 +1043,20 @@ padding: 17px;
 }
 
 .food__title {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
   letter-spacing: 2px;
   line-height: 20px;
 }
+  
+ .food__text {
+   line-height: 20px;
+}
 
 .food__about {
-  margin-left: 20px;
-  margin-top: 20px;
-  padding-right: 10px;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding-right: 5%;
 }
 
 .food__button {
@@ -1058,11 +1068,11 @@ padding: 17px;
 }
 
 .food__btn {
-  margin-top: 10px;
+  margin-top: 3%;
 }
 
 .food__link {
-  margin-top: 14px;
+  margin-top: 5%;
   font-size: 10px;
 }
 
@@ -1081,6 +1091,7 @@ padding: 17px;
   margin-top: 10px;
   text-transform:none;
   letter-spacing: 1px;
+  font-size: 16px;
 }
 
 .menu__text {
@@ -1088,7 +1099,7 @@ padding: 17px;
 }
 
 .menu__btn {
-  margin-top: 15px;
+  margin-top: 30%;
   height: 20px;
   width: 100%;
   font-size: 10px;
@@ -1101,11 +1112,17 @@ padding: 17px;
   text-transform: none;
   letter-spacing: 1px;
 }
+  
+  .menu__btnlink {
+    font-family: Bebas,sans-serif;
+    font-size: 8px;
+    letter-spacing: 0px;
+}
 
 /*choose*/
 
 .choose {
-    margin-top: 57px;
+    margin-top: 5%;
     margin-bottom: 27px;
 }
 
@@ -1113,24 +1130,31 @@ padding: 17px;
   font-size: 20px;
   letter-spacing: 1px;
 }
+  
+  .choose__text {
+    font-size: 100%;
+   
+  }
+  
+/* .interpretation   */
 
 .interpretation__item {
   display: block;
   width: 100%;
   height: 40%;
-  margin-bottom: 38px;
-  
+  margin-bottom: 38px; 
 
 }
 
 .interpretation__title{
   margin-top: 10px;
   text-align: center;
-  height: 5%;
+  height: 10%;
+  font-size: 16px;
 }
 
 .interpretation__inf0{
-  height: 400%;
+  height: 200%;
 }
 
 .interpretation__img,
@@ -1179,7 +1203,7 @@ padding: 17px;
 }
 
 .footer__form-name {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
 }
@@ -1213,7 +1237,22 @@ padding: 17px;
 .footer__bottom-left{
   width: 40%;
 }
-
+  
+.footer__email-text {
+  margin-left: 10%;
+  font-family: "PT Sans",sans-serif;
+  font-size: 10px;
+}
+  
+  .footer__text{
+    font-size: 10px;
+  }
+  
+  .footer__tel-number {
+    font-size: 10px;
+}
+  
+ 
 
 
 }
