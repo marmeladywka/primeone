@@ -228,7 +228,8 @@ height: 100%;
 }
 
 .food__foto{
- background-size: cover;
+ width: 100%;
+ min-height: 100%;
 }
 
 
@@ -704,7 +705,8 @@ padding: 17px;
 }
 
 .food__foto {
-  height: 100%;
+ width: 100%;
+ min-height: 100%;
 }
 
 .food__about {
@@ -1048,7 +1050,8 @@ padding: 17px;
 /*food*/
   
   .food__foto {
-    background-size: cover;
+    width: 100%;
+    min-height: 100%;
 }
 
 .food{
