@@ -999,9 +999,7 @@ padding: 17px;
   }
 
 .header__logo {
-  width: 50%;
-  position: relative;
-  right: 330%;
+  width: 80%;
 }
 
 .header__mobile-icon {
