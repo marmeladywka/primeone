@@ -162,7 +162,7 @@ body{
 .header__menu{
   display:flex;
   text-transform: uppercase;
-  font-family: font-family: "Akzidenz Grotesk BQ - Bd Cnd",sans-serif;
+  font-family: "Akzidenz Grotesk BQ - Bd Cnd",sans-serif;
   letter-spacing: 1.5px;
   
 
@@ -468,6 +468,7 @@ padding: 17px;
 .footer__contact{
   display: flex;
   margin-bottom: 27px;
+  justify-content: space-between;
 }
 
 .footer__adress{
@@ -491,7 +492,7 @@ padding: 17px;
 }
 
 .footer__contactright{
-  margin-left: 22%;
+  padding-right: 25%;
 }
 
 .footer__tel{
@@ -611,7 +612,7 @@ padding: 17px;
     display: flex;
     margin-top:59px;
     padding-bottom: 53px;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 
   
@@ -784,6 +785,10 @@ padding: 17px;
 .footer__bottom-left{
   padding-left: 15px;
   }
+  
+  .footer__contactright {
+    padding-right: 20%;
+}
 
 
   }
@@ -920,6 +925,27 @@ padding: 17px;
   padding-bottom: 43px;
     
 }
+  
+ .footer__contactright {
+   padding-right: 10%;
+}
+  
+ .footer__bottom-left {
+   width: 50%;
+}
+  
+ .footer__bottom-right {
+   width: 50%;
+   padding-left: 5%;
+}
+  
+ .footer__left-img{
+   width: 50%;
+  }
+  
+  .footer__social-img{
+    width: 80%;
+  }
   }
 
 @media screen and (max-width: 575px){
