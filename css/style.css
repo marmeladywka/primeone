@@ -1056,8 +1056,8 @@ padding: 17px;
 
 .food{
   z-index: 0;
-  position: relative
-  
+  position: relative;
+  padding-top: 3%;
 }
 
 .food__title {
