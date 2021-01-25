@@ -1029,9 +1029,9 @@ padding: 17px;
   background-color: #000000;
   opacity: 0.6;
   color: #ffffff;
-  margin-bottom: -170%;
+  position: absolute;
   z-index: 1;
-  width: 160%;
+  width: 40%;
   
 }
 
@@ -1056,6 +1056,7 @@ padding: 17px;
 
 .food{
   z-index: 0;
+  position: relative
   
 }
 
