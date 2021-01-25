@@ -1035,20 +1035,20 @@ padding: 17px;
   
 }
 
-/* .header__list {
-    padding-bottom: 15px;
+.header__list {
+    padding-top: 15px;
     padding-left: 15px;
-    font-size: 20px;
-    letter-spacing: 1.5px;
     border-bottom: 1px solid #ffffff;
-} */
+}
+  
+  .header__list:last-child{
+     padding-bottom: 15px;
+  }
   
  .header__link-mob{
-   padding-bottom: 15px;
    padding-left: 15px;
    font-size: 20px;
    letter-spacing: 1.5px;
-   border-bottom: 1px solid #ffffff;
    color: #ffffff;
   }
 
