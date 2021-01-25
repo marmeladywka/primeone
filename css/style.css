@@ -1051,6 +1051,10 @@ padding: 17px;
    letter-spacing: 1.5px;
    color: #ffffff;
   }
+  
+  .header__link-mob:hover{
+    color:#8b7889;
+  }
 
 .header__oder {
   margin-bottom: 0px;
