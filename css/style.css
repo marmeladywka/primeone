@@ -149,15 +149,9 @@ body{
 }
 
 .header__link:hover,.header__link-tel:hover{
-  color: white; 
-  background: black;
+  color: #ffffff; 
+  background: #000000;
 }
-
-.header__list:hover{
-  color: #FF4500;
-
-}
-
 
 .header__menu{
   display:flex;
