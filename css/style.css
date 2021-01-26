@@ -1062,9 +1062,9 @@ input.toggleMenu:checked + label.toggleMenu{
    color: #ffffff;
   }
   
-/*   .header__link-mob:hover{
+  .header__link-mob:hover{
     color:#8b7889;
-  } */
+  }
 
 .header__oder {
   margin-bottom: 0px;
