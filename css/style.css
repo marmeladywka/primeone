@@ -976,9 +976,7 @@ padding: 17px;
   display: none;
 }
 
-.header__mobile-href:focus + .header__mobile-list,
- .header__mobile-href:active + .header__mobile-list,
-  .header__mobile-list:hover{
+.header__mobile-href:hover + .header__mobile-list{
   display: block;
   
 }
@@ -1022,17 +1020,19 @@ padding: 17px;
 
 .header__mobile-list{
   display: none;
-  background-color: #000000;
   opacity: 0.6;
   color: #ffffff;
   position: absolute;
   z-index: 1;
   width: 40%;
+  top: 9%;
+  padding-top: 5%;
   
   
 }
 
 .header__list {
+    background-color: #000000;
     padding-top: 15px;
     padding-left: 15px;
     border-bottom: 1px solid #ffffff;
