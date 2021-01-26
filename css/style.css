@@ -981,6 +981,11 @@ padding: 17px;
   
 }
 
+body mouse .header__mobile-href:hover + .header__mobile-list{
+  display: block;
+  
+}
+
 .header__mobile-href:hover .header__center{
   display: none;
 }
