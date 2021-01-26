@@ -1034,12 +1034,8 @@ padding: 17px;
   padding-top: 5%; 
   
 }
-  
-input.toggleMenu:checked + label.toggleMenu{
-  background-color:#f95f34;
-  }
  
- input.toggleMenu:checked ~ ul{
+ input.toggleMenu:checked ~ .header__mobile-list{
    display:block;
   }
 
