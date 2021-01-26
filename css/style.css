@@ -1035,7 +1035,14 @@ padding: 17px;
   
 }
   
-  .
+input.toggleMenu:checked + label.toggleMenu{
+  color:#f95f34;
+  }
+ 
+ input.toggleMenu:checked ~ ul{
+   display:block;
+  }
+
 
 .header__list {
     background-color: #000000;
