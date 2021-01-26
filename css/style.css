@@ -1019,7 +1019,7 @@ padding: 17px;
 }
 
 .header__mobile-list{
-  display: none;
+  display: block;
   opacity: 0.6;
   color: #ffffff;
   position: absolute;
