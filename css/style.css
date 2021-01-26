@@ -981,10 +981,14 @@ padding: 17px;
   
 }
 
-body mouse .header__mobile-href:hover + .header__mobile-list{
+body.mouse .header__mobile-href:hover + .header__mobile-list{
   display: block;
   
 }
+  
+ body.touch .header__mobile-list.open{
+   display:block;
+  }
 
 .header__mobile-href:hover .header__center{
   display: none;
@@ -1061,6 +1065,8 @@ body mouse .header__mobile-href:hover + .header__mobile-list{
 .header__oder {
   margin-bottom: 0px;
 }
+  
+ 
 
 /*food*/
   
