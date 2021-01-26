@@ -10,7 +10,16 @@ let isMobile = {
 let body=document.querySelector('body');
 
 if(isMobile.any()){
-		body.classList.add('touch');
+	body.classList.add('touch');
+	let header__mobile-link=document.querySelectorAll('.arrow');
+	for(i=0; i<header__mobile-link.length; i++){
+	let header__mobile-list=header__mobile-link[i].nextElementSibling;
+	let thisArrow=header__mobile-link[i];
+	header__mobile-link[i].addEventListener('click', function(){
+			header__mobile-list.classList.toggle('open');
+			header__mobile-link.classList.toggle('active');
+		});
+	}	
 	}else{
 		body.classList.add('mouse');
 	}
