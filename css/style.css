@@ -166,6 +166,10 @@ body{
   display: none;
 }
 
+.header__menu-mobile [type="checkbox"]{
+  display: none;
+}
+
 
 .header__mobile-icon{
   width: 10%;
@@ -966,6 +970,7 @@ padding: 17px;
 
 .header__menu-mobile{
   display: block;
+  
 }
 
 .header__oder{
@@ -1019,17 +1024,18 @@ padding: 17px;
 }
 
 .header__mobile-list{
-  display: block;
+  display:none;
   opacity: 0.6;
   color: #ffffff;
   position: absolute;
   z-index: 1;
   width: 40%;
   top: 9%;
-  padding-top: 5%;
-  
+  padding-top: 5%; 
   
 }
+  
+  .
 
 .header__list {
     background-color: #000000;
