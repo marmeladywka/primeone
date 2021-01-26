@@ -9,3 +9,24 @@ body{
 	margin: 0 auto;
 	width: 100%;
 }
+
+
+.error{	
+	position: absolute;			
+    	left: 35%;
+   	width: 30%;
+   	height: 10%;
+    	border-radius: 50px;
+	background-color: #252525;
+}
+
+.error__link{
+	color: #e1574c;
+    	font-weight: 900;
+    	font-size: 400%;
+	text-decoration: none;
+}
+
+.error:hover{
+	box-shadow: 2px 2px 2px #acada8;
+}
