@@ -11,7 +11,7 @@ body{
 }
 
 
-.error{	
+.error__btn{	
 	position: absolute;			
     	left: 35%;
    	width: 30%;
@@ -23,7 +23,7 @@ body{
 .error__link{
 	color: #e1574c;
     	font-weight: 900;
-    	font-size: 400%;
+    	font-size: 30px;
 	text-decoration: none;
 }
 
