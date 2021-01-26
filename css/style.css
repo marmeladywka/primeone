@@ -976,7 +976,9 @@ padding: 17px;
   display: none;
 }
 
-.header__mobile-href:hover + .header__mobile-list{
+.header__mobile-href:focus + .header__mobile-list,
+ .header__mobile-href:active + .header__mobile-list,
+  .header__mobile-list:hover{
   display: block;
   
 }
