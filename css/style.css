@@ -1036,7 +1036,7 @@ padding: 17px;
 }
   
 input.toggleMenu:checked + label.toggleMenu{
-  color:#f95f34;
+  background-color:#f95f34;
   }
  
  input.toggleMenu:checked ~ ul{
