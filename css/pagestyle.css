@@ -7,7 +7,7 @@ body{
 .error{
 	display: block;
 	margin: 0 auto;
-	width: 70%;
+	width: 50%;
 	;
 }
 
@@ -39,5 +39,10 @@ body{
 
 .error__btn:hover{
 	box-shadow: 5px -5px 5px #acada8;
+}
+
+.error{
+	width: 100%;
+	;
 }
 }
