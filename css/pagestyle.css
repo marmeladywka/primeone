@@ -11,15 +11,33 @@ body{
 }
 
 
-.error__btn{	
+.error__btn{
+	display:none;
 	position: absolute;			
     	left: 35%;
-   	width: 30%;
+   	width: 40%;
    	height: 10%;
     	border-radius: 50px;
-	background-color: #252525;
+	background-color: #222C2F;
 }
 
+.error__link{
+	color: #E24C5E;
+    	font-weight: 900;
+    	font-size: 30px;
+	text-decoration: none;
+}
+
+.error:hover{
+	box-shadow: 2px 2px 2px #acada8;
+}
+
+@media screen and (max-width: 575px){
+
+.error__btn{
+	display:none;
+	}
+	
 .error__link{
 	color: #e1574c;
     	font-weight: 900;
@@ -28,5 +46,6 @@ body{
 }
 
 .error:hover{
-	box-shadow: 2px 2px 2px #acada8;
+	box-shadow: 5px -5px 5px #acada8;
+}
 }
