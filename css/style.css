@@ -1071,11 +1071,6 @@ padding: 17px;
  
 
 /*food*/
-  
-  .food__foto {
-    width: 100%;
-    min-height: 100%;
-}
 
 .food{
   z-index: 0;
